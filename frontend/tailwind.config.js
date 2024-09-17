@@ -34,21 +34,20 @@ export default {
             },
             colors: {
                 // Light Mode Colors
-                'light-primary': '#FFB6B9',
-                'light-secondary': '#FFE6E6',
-                'light-text-primary': '#333333',
-                'light-text-secondary': '#666666',
-                'light-accent-primary': '#dc2626',
-                'light-highlight-primary': '#4169E1',
-
+                'light-primary': '#F7F7F7',          // Soft white for the background
+                'light-secondary': '#E0E0E0',        // Light grey for secondary components
+                'light-text-primary': '#333333',     // Dark grey for primary text
+                'light-text-secondary': '#666666',   // Medium grey for secondary text
+                'light-accent-primary': '#007BFF',   // Bright blue for accents and call-to-actions
+                'light-highlight-primary': '#FF7043',// Orange for highlights
 
                 // Dark Mode Colors
-                'dark-primary': '#1f2937',
-                'dark-secondary': '#334155',
-                'dark-text-primary': '#ffffff',
-                'dark-text-secondary': '#cbd5e1',
-                'dark-accent-primary': '#FF6347',
-                'dark-highlight-primary': '#1E90FF',
+                'dark-primary': '#121212',           // Dark grey for the background
+                'dark-secondary': '#1E1E1E',         // Slightly lighter grey for depth
+                'dark-text-primary': '#E0E0E0',      // Light grey for primary text
+                'dark-text-secondary': '#AAAAAA',    // Muted grey for secondary text
+                'dark-accent-primary': '#1DB954',    // Teal for accents and interactive elements
+                'dark-highlight-primary': '#FFC107', // Yellow for highlights
             },
             boxShadow: {
                 // Light Mode Shadows
